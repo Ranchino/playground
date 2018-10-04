@@ -9,7 +9,6 @@ function newColor() {
         style.backgroundColor = "lightgreen";
     }
     
-    
 }
 
 function randomColor() {
@@ -25,10 +24,18 @@ function randomColor() {
     } else {
         document.body.style.backgroundColor = "green";
     }
-    
 }
 
+function absoluteRandom() {
+    var red = Math.round(Math.random() * 255);
+    var green = Math.round(Math.random() * 255);
+    var blue = Math.round(Math.random() * 255);
 
+    var rgbValue = "rgb(" + red +"," + green +"," + blue +")";
+    document.body.style.backgroundColor = rgbValue;
+
+    setInterval(absoluteRandom, 1000);
+}
 
 
 /*
