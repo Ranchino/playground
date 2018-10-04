@@ -76,6 +76,15 @@ function convertToHex(value) {
     return value;
 }
 
+myLibrary.
+
+/*
+console.log(calculateRectangleArea(5.5, 3.3));
+console.log(calculateTriangleArea(5.5, 3.3));
+console.log(calculateCircleArea(2));
+*/
+
+
 /*
 var fotballPlayer = {
     name: "Ranchino Bahadin",
