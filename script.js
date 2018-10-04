@@ -34,8 +34,8 @@ function absoluteRandomRGB() {
     var rgbValue = "rgb(" + red +"," + green +"," + blue +")";
     document.body.style.backgroundColor = rgbValue;
 
-    /* Disco disco gutt gutt*/
-    setInterval(absoluteRandom, 1000);
+    /* Disco disco gutt gutt om man på den här knappen sen dom andra knapparna*/
+    setInterval(absoluteRandomRGB, 1000);
 }
 
     /* No Disco
