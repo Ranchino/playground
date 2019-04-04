@@ -38,9 +38,8 @@ function absoluteRandomRGB() {
     setInterval(absoluteRandomRGB, 1000);
 }
 
-    /* No Disco
+    // No Disco
     setInterval(absoluteRandom, 1000);
-    */
 
 
 function absoluteRandomHex() {
@@ -61,24 +60,26 @@ function absoluteRandomHex() {
 function convertToHex(value) {
     if (value == 10) {
         return "A";
-    } if (value == 11) {
+    } else if (value == 11) {
         return "B";
-    } if (value == 12) {
+    } else if (value == 12) {
         return "C";
-    } if (value == 13) {
+    } else if (value == 13) {
         return "D";
-    } if (value == 14) {
+    } else if (value == 14) {
         return "E";
-    } if (value == 15) {
+    } else if (value == 15) {
         return "F";
-    }  
+    } else{
 
-    return value;
+        return value;
+    } 
+
 }
 
-myLibrary.
 
 /*
+myLibrary.js
 console.log(calculateRectangleArea(5.5, 3.3));
 console.log(calculateTriangleArea(5.5, 3.3));
 console.log(calculateCircleArea(2));
